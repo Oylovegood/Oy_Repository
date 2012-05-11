@@ -1,0 +1,804 @@
+2012/05/09 09:51:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "index" was not found.' in C:\xampp\yii\yiiRoot\framework\web\actions\CViewAction.php:113
+Stack trace:
+#0 C:\xampp\yii\yiiRoot\framework\web\actions\CViewAction.php(124): CViewAction->resolveView('index')
+#1 C:\xampp\yii\yiiRoot\framework\web\actions\CAction.php(75): CViewAction->run()
+#2 C:\xampp\yii\yiiRoot\framework\web\CController.php(309): CAction->runWithParams(Array)
+#3 C:\xampp\yii\yiiRoot\framework\web\CController.php(287): CController->runAction(Object(CViewAction))
+#4 C:\xampp\yii\yiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\yii\yiiRoot\framework\web\CWebApplication.php(276): CController->run('page')
+#6 C:\xampp\yii\yiiRoot\framework\web\CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 C:\xampp\yii\yiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 F:\web\vision\blog\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/blog/index.php?r=site/page
+HTTP_REFERER=http://localhost:8812/blog/
+---
+2012/05/09 09:51:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "site".' in C:\xampp\yii\yiiRoot\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\yii\yiiRoot\framework\web\CController.php(271): CController->missingAction('site')
+#1 C:\xampp\yii\yiiRoot\framework\web\CWebApplication.php(276): CController->run('site')
+#2 C:\xampp\yii\yiiRoot\framework\web\CWebApplication.php(135): CWebApplication->runController('site/site')
+#3 C:\xampp\yii\yiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 F:\web\vision\blog\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/blog/index.php?r=site/site
+HTTP_REFERER=http://localhost:8812/blog/index.php?r=site/page
+---
+2012/05/09 09:51:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "site".' in C:\xampp\yii\yiiRoot\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\yii\yiiRoot\framework\web\CController.php(271): CController->missingAction('site')
+#1 C:\xampp\yii\yiiRoot\framework\web\CWebApplication.php(276): CController->run('site')
+#2 C:\xampp\yii\yiiRoot\framework\web\CWebApplication.php(135): CWebApplication->runController('site/site')
+#3 C:\xampp\yii\yiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 F:\web\vision\blog\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/blog/index.php?r=site/site
+HTTP_REFERER=http://localhost:8812/blog/index.php?r=site/page
+---
+2012/05/09 09:51:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "index" was not found.' in C:\xampp\yii\yiiRoot\framework\web\actions\CViewAction.php:113
+Stack trace:
+#0 C:\xampp\yii\yiiRoot\framework\web\actions\CViewAction.php(124): CViewAction->resolveView('index')
+#1 C:\xampp\yii\yiiRoot\framework\web\actions\CAction.php(75): CViewAction->run()
+#2 C:\xampp\yii\yiiRoot\framework\web\CController.php(309): CAction->runWithParams(Array)
+#3 C:\xampp\yii\yiiRoot\framework\web\CController.php(287): CController->runAction(Object(CViewAction))
+#4 C:\xampp\yii\yiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\yii\yiiRoot\framework\web\CWebApplication.php(276): CController->run('page')
+#6 C:\xampp\yii\yiiRoot\framework\web\CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 C:\xampp\yii\yiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 F:\web\vision\blog\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/blog/index.php?r=site/page
+HTTP_REFERER=http://localhost:8812/blog/index.php?r=site/index
+---
+2012/05/09 09:51:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "index" was not found.' in C:\xampp\yii\yiiRoot\framework\web\actions\CViewAction.php:113
+Stack trace:
+#0 C:\xampp\yii\yiiRoot\framework\web\actions\CViewAction.php(124): CViewAction->resolveView('index')
+#1 C:\xampp\yii\yiiRoot\framework\web\actions\CAction.php(75): CViewAction->run()
+#2 C:\xampp\yii\yiiRoot\framework\web\CController.php(309): CAction->runWithParams(Array)
+#3 C:\xampp\yii\yiiRoot\framework\web\CController.php(287): CController->runAction(Object(CViewAction))
+#4 C:\xampp\yii\yiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\yii\yiiRoot\framework\web\CWebApplication.php(276): CController->run('page')
+#6 C:\xampp\yii\yiiRoot\framework\web\CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 C:\xampp\yii\yiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 F:\web\vision\blog\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/blog/index.php?r=site/page
+HTTP_REFERER=http://localhost:8812/blog/index.php?r=site/index
+---
+2012/05/09 09:52:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "index" was not found.' in C:\xampp\yii\yiiRoot\framework\web\actions\CViewAction.php:113
+Stack trace:
+#0 C:\xampp\yii\yiiRoot\framework\web\actions\CViewAction.php(124): CViewAction->resolveView('index')
+#1 C:\xampp\yii\yiiRoot\framework\web\actions\CAction.php(75): CViewAction->run()
+#2 C:\xampp\yii\yiiRoot\framework\web\CController.php(309): CAction->runWithParams(Array)
+#3 C:\xampp\yii\yiiRoot\framework\web\CController.php(287): CController->runAction(Object(CViewAction))
+#4 C:\xampp\yii\yiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\yii\yiiRoot\framework\web\CWebApplication.php(276): CController->run('page')
+#6 C:\xampp\yii\yiiRoot\framework\web\CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 C:\xampp\yii\yiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 F:\web\vision\blog\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/blog/index.php?r=site/page
+HTTP_REFERER=http://localhost:8812/blog/index.php?r=site/page
+---
+2012/05/09 09:52:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "index" was not found.' in C:\xampp\yii\yiiRoot\framework\web\actions\CViewAction.php:113
+Stack trace:
+#0 C:\xampp\yii\yiiRoot\framework\web\actions\CViewAction.php(124): CViewAction->resolveView('index')
+#1 C:\xampp\yii\yiiRoot\framework\web\actions\CAction.php(75): CViewAction->run()
+#2 C:\xampp\yii\yiiRoot\framework\web\CController.php(309): CAction->runWithParams(Array)
+#3 C:\xampp\yii\yiiRoot\framework\web\CController.php(287): CController->runAction(Object(CViewAction))
+#4 C:\xampp\yii\yiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\yii\yiiRoot\framework\web\CWebApplication.php(276): CController->run('page')
+#6 C:\xampp\yii\yiiRoot\framework\web\CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 C:\xampp\yii\yiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 F:\web\vision\blog\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/blog/index.php?r=site/page
+HTTP_REFERER=http://localhost:8812/blog/index.php?r=site/page
+---
+2012/05/09 09:52:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "index" was not found.' in C:\xampp\yii\yiiRoot\framework\web\actions\CViewAction.php:113
+Stack trace:
+#0 C:\xampp\yii\yiiRoot\framework\web\actions\CViewAction.php(124): CViewAction->resolveView('index')
+#1 C:\xampp\yii\yiiRoot\framework\web\actions\CAction.php(75): CViewAction->run()
+#2 C:\xampp\yii\yiiRoot\framework\web\CController.php(309): CAction->runWithParams(Array)
+#3 C:\xampp\yii\yiiRoot\framework\web\CController.php(287): CController->runAction(Object(CViewAction))
+#4 C:\xampp\yii\yiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\yii\yiiRoot\framework\web\CWebApplication.php(276): CController->run('page')
+#6 C:\xampp\yii\yiiRoot\framework\web\CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 C:\xampp\yii\yiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 F:\web\vision\blog\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/blog/index.php?r=site/page
+---
+2012/05/09 09:53:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "index" was not found.' in C:\xampp\yii\yiiRoot\framework\web\actions\CViewAction.php:113
+Stack trace:
+#0 C:\xampp\yii\yiiRoot\framework\web\actions\CViewAction.php(124): CViewAction->resolveView('index')
+#1 C:\xampp\yii\yiiRoot\framework\web\actions\CAction.php(75): CViewAction->run()
+#2 C:\xampp\yii\yiiRoot\framework\web\CController.php(309): CAction->runWithParams(Array)
+#3 C:\xampp\yii\yiiRoot\framework\web\CController.php(287): CController->runAction(Object(CViewAction))
+#4 C:\xampp\yii\yiiRoot\framework\web\CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\xampp\yii\yiiRoot\framework\web\CWebApplication.php(276): CController->run('page')
+#6 C:\xampp\yii\yiiRoot\framework\web\CWebApplication.php(135): CWebApplication->runController('site/page')
+#7 C:\xampp\yii\yiiRoot\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 F:\web\vision\blog\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/blog/index.php?r=site/page
+---
+2012/05/09 10:59:11 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(276): CController->run('admin')
+#8 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('post/admin')
+#9 C:\Users\OY\Desktop\Link\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Users\OY\Desktop\Link\yii\blog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/blog/index.php?r=post/admin
+HTTP_REFERER=http://127.0.0.1/blog/index.php
+---
+2012/05/09 11:00:50 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(276): CController->run('admin')
+#8 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('post/admin')
+#9 C:\Users\OY\Desktop\Link\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Users\OY\Desktop\Link\yii\blog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/blog/index.php?r=post/admin
+HTTP_REFERER=http://127.0.0.1/blog/index.php?r=post/view&id=5
+---
+2012/05/09 11:01:32 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(276): CController->run('admin')
+#8 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('post/admin')
+#9 C:\Users\OY\Desktop\Link\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Users\OY\Desktop\Link\yii\blog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/blog/index.php?r=post/admin
+HTTP_REFERER=http://127.0.0.1/blog/index.php
+---
+2012/05/09 11:01:52 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(276): CController->run('delete')
+#8 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('post/delete')
+#9 C:\Users\OY\Desktop\Link\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Users\OY\Desktop\Link\yii\blog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/blog/index.php?r=post/delete&id=3
+HTTP_REFERER=http://127.0.0.1/blog/index.php?r=post/view&id=3
+---
+2012/05/09 11:02:26 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(276): CController->run('admin')
+#8 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('post/admin')
+#9 C:\Users\OY\Desktop\Link\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Users\OY\Desktop\Link\yii\blog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/blog/index.php?r=post/admin
+HTTP_REFERER=http://127.0.0.1/blog/index.php?r=post/index
+---
+2012/05/09 11:13:24 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(276): CController->run('admin')
+#8 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('post/admin')
+#9 C:\Users\OY\Desktop\Link\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Users\OY\Desktop\Link\yii\blog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/blog/index.php?r=post/admin
+HTTP_REFERER=http://127.0.0.1/blog/index.php
+---
+2012/05/09 11:14:36 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(276): CController->run('admin')
+#8 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('post/admin')
+#9 C:\Users\OY\Desktop\Link\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Users\OY\Desktop\Link\yii\blog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/blog/index.php?r=post/admin
+HTTP_REFERER=http://127.0.0.1/blog/index.php?r=post/view&id=3
+---
+2012/05/09 11:16:35 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(276): CController->run('admin')
+#8 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('post/admin')
+#9 C:\Users\OY\Desktop\Link\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Users\OY\Desktop\Link\yii\blog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/blog/index.php?r=post/admin
+HTTP_REFERER=http://127.0.0.1/blog/index.php?r=post/view&id=3
+---
+2012/05/09 11:16:41 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(276): CController->run('admin')
+#8 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('post/admin')
+#9 C:\Users\OY\Desktop\Link\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Users\OY\Desktop\Link\yii\blog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/blog/index.php?r=post/admin
+HTTP_REFERER=http://127.0.0.1/blog/index.php
+---
+2012/05/09 11:20:45 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(276): CController->run('admin')
+#8 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('post/admin')
+#9 C:\Users\OY\Desktop\Link\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Users\OY\Desktop\Link\yii\blog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/blog/index.php?r=post/admin
+HTTP_REFERER=http://127.0.0.1/blog/index.php?r=post/view&id=3
+---
+2012/05/09 11:22:23 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`blog`.`tbl_post`, CONSTRAINT `FK_post_author` FOREIGN KEY (`author_id`) REFERENCES `tbl_user` (`id`) ON DELETE CASCADE). The SQL statement executed was: INSERT INTO `tbl_post` (`title`, `content`, `tags`, `status`, `create_time`, `update_time`, `author_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6).
+in C:\Users\OY\Desktop\Link\yii\blog\protected\controllers\PostController.php (72)
+in C:\Users\OY\Desktop\Link\yii\blog\index.php (13)
+2012/05/09 11:22:23 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`blog`.`tbl_post`, CONSTRAINT `FK_post_author` FOREIGN KEY (`author_id`) REFERENCES `tbl_user` (`id`) ON DELETE CASCADE). The SQL statement executed was: INSERT INTO `tbl_post` (`title`, `content`, `tags`, `status`, `create_time`, `update_time`, `author_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6)' in C:\Users\OY\Desktop\Link\yii\framework\db\CDbCommand.php:354
+Stack trace:
+#0 C:\Users\OY\Desktop\Link\yii\framework\db\ar\CActiveRecord.php(1014): CDbCommand->execute()
+#1 C:\Users\OY\Desktop\Link\yii\framework\db\ar\CActiveRecord.php(787): CActiveRecord->insert(NULL)
+#2 C:\Users\OY\Desktop\Link\yii\blog\protected\controllers\PostController.php(72): CActiveRecord->save()
+#3 C:\Users\OY\Desktop\Link\yii\framework\web\actions\CInlineAction.php(50): PostController->actionCreate()
+#4 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(292): CFilterChain->run()
+#11 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(276): CController->run('create')
+#13 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('post/create')
+#14 C:\Users\OY\Desktop\Link\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\Users\OY\Desktop\Link\yii\blog\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/blog/index.php?r=post/create
+HTTP_REFERER=http://127.0.0.1/blog/index.php?r=post/create
+---
+2012/05/09 11:22:49 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`blog`.`tbl_post`, CONSTRAINT `FK_post_author` FOREIGN KEY (`author_id`) REFERENCES `tbl_user` (`id`) ON DELETE CASCADE). The SQL statement executed was: INSERT INTO `tbl_post` (`title`, `content`, `tags`, `status`, `create_time`, `update_time`, `author_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6).
+in C:\Users\OY\Desktop\Link\yii\blog\protected\controllers\PostController.php (72)
+in C:\Users\OY\Desktop\Link\yii\blog\index.php (13)
+2012/05/09 11:22:49 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`blog`.`tbl_post`, CONSTRAINT `FK_post_author` FOREIGN KEY (`author_id`) REFERENCES `tbl_user` (`id`) ON DELETE CASCADE). The SQL statement executed was: INSERT INTO `tbl_post` (`title`, `content`, `tags`, `status`, `create_time`, `update_time`, `author_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6)' in C:\Users\OY\Desktop\Link\yii\framework\db\CDbCommand.php:354
+Stack trace:
+#0 C:\Users\OY\Desktop\Link\yii\framework\db\ar\CActiveRecord.php(1014): CDbCommand->execute()
+#1 C:\Users\OY\Desktop\Link\yii\framework\db\ar\CActiveRecord.php(787): CActiveRecord->insert(NULL)
+#2 C:\Users\OY\Desktop\Link\yii\blog\protected\controllers\PostController.php(72): CActiveRecord->save()
+#3 C:\Users\OY\Desktop\Link\yii\framework\web\actions\CInlineAction.php(50): PostController->actionCreate()
+#4 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(292): CFilterChain->run()
+#11 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(276): CController->run('create')
+#13 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('post/create')
+#14 C:\Users\OY\Desktop\Link\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\Users\OY\Desktop\Link\yii\blog\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/blog/index.php?r=post/create
+HTTP_REFERER=http://127.0.0.1/blog/index.php?r=post/create
+---
+2012/05/09 13:24:45 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(276): CController->run('admin')
+#8 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('post/admin')
+#9 C:\Users\OY\Desktop\Link\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Users\OY\Desktop\Link\yii\blog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/blog/index.php?r=post/admin
+HTTP_REFERER=http://127.0.0.1/blog/index.php?r=site/login
+---
+2012/05/09 13:28:46 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(276): CController->run('admin')
+#8 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('post/admin')
+#9 C:\Users\OY\Desktop\Link\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Users\OY\Desktop\Link\yii\blog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/blog/index.php?r=post/admin
+HTTP_REFERER=http://127.0.0.1/blog/index.php?r=site/login
+---
+2012/05/09 13:29:40 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(276): CController->run('admin')
+#8 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('post/admin')
+#9 C:\Users\OY\Desktop\Link\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Users\OY\Desktop\Link\yii\blog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/blog/index.php?r=post/admin
+HTTP_REFERER=http://127.0.0.1/blog/index.php?r=site/login
+---
+2012/05/09 13:30:08 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(276): CController->run('admin')
+#8 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('post/admin')
+#9 C:\Users\OY\Desktop\Link\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Users\OY\Desktop\Link\yii\blog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/blog/index.php?r=post/admin
+HTTP_REFERER=http://127.0.0.1/blog/index.php?r=site/login
+---
+2012/05/09 13:31:25 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(276): CController->run('admin')
+#8 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('post/admin')
+#9 C:\Users\OY\Desktop\Link\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Users\OY\Desktop\Link\yii\blog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/blog/index.php?r=post/admin
+HTTP_REFERER=http://127.0.0.1/blog/index.php
+---
+2012/05/09 13:31:39 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(276): CController->run('admin')
+#8 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('post/admin')
+#9 C:\Users\OY\Desktop\Link\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Users\OY\Desktop\Link\yii\blog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/blog/index.php?r=post/admin
+HTTP_REFERER=http://127.0.0.1/blog/index.php
+---
+2012/05/09 13:33:59 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(276): CController->run('admin')
+#8 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('post/admin')
+#9 C:\Users\OY\Desktop\Link\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Users\OY\Desktop\Link\yii\blog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/blog/index.php?r=post/admin
+HTTP_REFERER=http://127.0.0.1/blog/index.php
+---
+2012/05/09 13:34:14 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(276): CController->run('admin')
+#8 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('post/admin')
+#9 C:\Users\OY\Desktop\Link\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Users\OY\Desktop\Link\yii\blog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/blog/index.php?r=post/admin
+HTTP_REFERER=http://127.0.0.1/blog/index.php
+---
+2012/05/09 13:34:14 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(276): CController->run('admin')
+#8 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('post/admin')
+#9 C:\Users\OY\Desktop\Link\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Users\OY\Desktop\Link\yii\blog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/blog/index.php?r=post/admin
+HTTP_REFERER=http://127.0.0.1/blog/index.php
+---
+2012/05/09 13:34:14 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(276): CController->run('admin')
+#8 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('post/admin')
+#9 C:\Users\OY\Desktop\Link\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Users\OY\Desktop\Link\yii\blog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/blog/index.php?r=post/admin
+HTTP_REFERER=http://127.0.0.1/blog/index.php
+---
+2012/05/09 13:34:15 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(276): CController->run('admin')
+#8 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('post/admin')
+#9 C:\Users\OY\Desktop\Link\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Users\OY\Desktop\Link\yii\blog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/blog/index.php?r=post/admin
+HTTP_REFERER=http://127.0.0.1/blog/index.php
+---
+2012/05/09 13:34:15 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(276): CController->run('admin')
+#8 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('post/admin')
+#9 C:\Users\OY\Desktop\Link\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Users\OY\Desktop\Link\yii\blog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/blog/index.php?r=post/admin
+HTTP_REFERER=http://127.0.0.1/blog/index.php
+---
+2012/05/09 13:34:51 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(276): CController->run('admin')
+#8 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('post/admin')
+#9 C:\Users\OY\Desktop\Link\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Users\OY\Desktop\Link\yii\blog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/blog/index.php?r=post/admin
+HTTP_REFERER=http://127.0.0.1/blog/index.php
+---
+2012/05/09 13:34:52 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(276): CController->run('admin')
+#8 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('post/admin')
+#9 C:\Users\OY\Desktop\Link\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Users\OY\Desktop\Link\yii\blog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/blog/index.php?r=post/admin
+HTTP_REFERER=http://127.0.0.1/blog/index.php
+---
+2012/05/09 13:34:52 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(276): CController->run('admin')
+#8 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('post/admin')
+#9 C:\Users\OY\Desktop\Link\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Users\OY\Desktop\Link\yii\blog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/blog/index.php?r=post/admin
+HTTP_REFERER=http://127.0.0.1/blog/index.php
+---
+2012/05/09 13:34:53 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(276): CController->run('admin')
+#8 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('post/admin')
+#9 C:\Users\OY\Desktop\Link\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Users\OY\Desktop\Link\yii\blog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/blog/index.php?r=post/admin
+HTTP_REFERER=http://127.0.0.1/blog/index.php
+---
+2012/05/09 13:34:53 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(276): CController->run('admin')
+#8 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('post/admin')
+#9 C:\Users\OY\Desktop\Link\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Users\OY\Desktop\Link\yii\blog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/blog/index.php?r=post/admin
+HTTP_REFERER=http://127.0.0.1/blog/index.php
+---
+2012/05/09 13:34:53 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(276): CController->run('admin')
+#8 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('post/admin')
+#9 C:\Users\OY\Desktop\Link\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Users\OY\Desktop\Link\yii\blog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/blog/index.php?r=post/admin
+HTTP_REFERER=http://127.0.0.1/blog/index.php
+---
+2012/05/09 13:34:53 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(276): CController->run('admin')
+#8 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('post/admin')
+#9 C:\Users\OY\Desktop\Link\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Users\OY\Desktop\Link\yii\blog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/blog/index.php?r=post/admin
+HTTP_REFERER=http://127.0.0.1/blog/index.php
+---
+2012/05/09 13:34:53 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(276): CController->run('admin')
+#8 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('post/admin')
+#9 C:\Users\OY\Desktop\Link\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Users\OY\Desktop\Link\yii\blog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/blog/index.php?r=post/admin
+HTTP_REFERER=http://127.0.0.1/blog/index.php
+---
+2012/05/09 13:34:54 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(276): CController->run('admin')
+#8 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('post/admin')
+#9 C:\Users\OY\Desktop\Link\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Users\OY\Desktop\Link\yii\blog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/blog/index.php?r=post/admin
+HTTP_REFERER=http://127.0.0.1/blog/index.php
+---
+2012/05/09 13:34:54 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(276): CController->run('admin')
+#8 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('post/admin')
+#9 C:\Users\OY\Desktop\Link\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Users\OY\Desktop\Link\yii\blog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/blog/index.php?r=post/admin
+HTTP_REFERER=http://127.0.0.1/blog/index.php
+---
+2012/05/09 13:34:54 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(276): CController->run('admin')
+#8 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('post/admin')
+#9 C:\Users\OY\Desktop\Link\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Users\OY\Desktop\Link\yii\blog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/blog/index.php?r=post/admin
+HTTP_REFERER=http://127.0.0.1/blog/index.php
+---
+2012/05/09 13:34:54 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(276): CController->run('admin')
+#8 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('post/admin')
+#9 C:\Users\OY\Desktop\Link\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Users\OY\Desktop\Link\yii\blog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/blog/index.php?r=post/admin
+HTTP_REFERER=http://127.0.0.1/blog/index.php
+---
+2012/05/09 13:34:54 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(276): CController->run('admin')
+#8 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('post/admin')
+#9 C:\Users\OY\Desktop\Link\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Users\OY\Desktop\Link\yii\blog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/blog/index.php?r=post/admin
+HTTP_REFERER=http://127.0.0.1/blog/index.php
+---
+2012/05/09 13:36:37 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(276): CController->run('admin')
+#8 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('post/admin')
+#9 C:\Users\OY\Desktop\Link\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Users\OY\Desktop\Link\yii\blog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/blog/index.php?r=post/admin
+HTTP_REFERER=http://127.0.0.1/blog/index.php
+---
+2012/05/09 13:37:44 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\Users\OY\Desktop\Link\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Users\OY\Desktop\Link\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\Users\OY\Desktop\Link\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(276): CController->run('admin')
+#8 C:\Users\OY\Desktop\Link\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('post/admin')
+#9 C:\Users\OY\Desktop\Link\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Users\OY\Desktop\Link\yii\blog\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/blog/index.php?r=post/admin
+HTTP_REFERER=http://127.0.0.1/blog/index.php?r=site/login
+---
